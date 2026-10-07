@@ -1,24 +1,32 @@
-# EmberEvo ($EMVO) — Review Input Documents
+# EmberEvo ($EMVO) — v3.3 ReviewFix1 Review Inputs
 
-Prepared: 2026-10-07
+Prepared: 2026-10-07. Single non-deploying policy/specification review. Not production code, a token launch, a completed audit or an event entry.
 
-This repository is intended only to distribute the input documents for a non-deploying pre-launch specification/policy review and a hackathon-readiness assessment. It is not the production website repository, a deployed token, a completed code audit, an event registration, or authorization to deploy or spend funds.
+Engineering revision candidate: two consistency changes only (true-burn gate precision and stable decision IDs). No runtime configuration, launch parameter or existing Owner approval was changed. If a document attributes a decision to the Owner, confirm it against the actual decision record; an AI-written attribution is not independent authorization.
 
-## Required reading order
+## Current reading order
 
-1. [IMD_Ember_EmberEvo_v3.2_Rev2_PreLaunch_Reviewed_2026-10-07.md](IMD_Ember_EmberEvo_v3.2_Rev2_PreLaunch_Reviewed_2026-10-07.md)
-2. [EMVO_PreLaunch_Swarm_Review_Brief_v1.1_NoDeploy_2026-10-07.md](EMVO_PreLaunch_Swarm_Review_Brief_v1.1_NoDeploy_2026-10-07.md)
-3. [EMVO_Hackathon_Swarm_Review_Addendum_v1.0_NoDeploy_2026-10-07.md](EMVO_Hackathon_Swarm_Review_Addendum_v1.0_NoDeploy_2026-10-07.md)
-4. [EMVO_Hackathon_Participation_Gap_Review_v1.0_2026-10-07.md](EMVO_Hackathon_Participation_Gap_Review_v1.0_2026-10-07.md)
+1. [IMD_Ember_EmberEvo_v3.3_Crypto_Research_Genesis_Burn_2026-10-07.md](IMD_Ember_EmberEvo_v3.3_Crypto_Research_Genesis_Burn_2026-10-07.md)
+2. [EMVO_Swarm_Review_Brief_v1.3_Crypto_Research_NoDeploy_2026-10-07.md](EMVO_Swarm_Review_Brief_v1.3_Crypto_Research_NoDeploy_2026-10-07.md)
+3. [EMVO_Hackathon_Swarm_Review_Addendum_v1.2_NoDeploy_2026-10-07.md](EMVO_Hackathon_Swarm_Review_Addendum_v1.2_NoDeploy_2026-10-07.md)
+4. [EMVO_Hackathon_Participation_Gap_Review_v1.2_2026-10-07.md](EMVO_Hackathon_Participation_Gap_Review_v1.2_2026-10-07.md)
 
-The four documents are original, unmodified bytes from the current submission package. `INPUT_MANIFEST.json` records their byte lengths and SHA-256 hashes.
+`INPUT_MANIFEST.json` records exact bytes and SHA-256 for the four current sources. Read and verify all four, from a new fixed commit. Old files may remain in this repository only as history. Do not review the old Rev.2/Rev.3 corpus instead.
 
-Use a fixed repository commit for the review. Read each complete document, compute its hash where possible, and report actual input access and any truncation or mismatch. The README and filenames do not substitute for the four documents. Missing required documents must be reported as INPUT_MISSING; do not certify unseen inputs.
+## Most important locked decision
 
-## Scope
+**Paid Genesis Mint remains BURN_NOT_TREASURY.** No project-wallet proceeds from that cost, no partial creator cut, no delayed manual burn, no token redemption. ReviewFix1 proposes L HOLD until required true-burn template capability has version-bound evidence; an unsupported standard token is a compatibility issue, not permission to collect the mint payment or silently call a sink true burn.
 
-The operative specification is v3.2 Rev.2; Brief v1.1 defines review permissions. The hackathon materials add candidate-only eligibility and architecture assessment. They do not approve additional application contracts, change tokenomics, or authorize registration, paid child jobs, wallet actions, production publication or deployment.
+Research is Crypto-first tokens and NFTs, beyond IMD and beyond AI tokens. Genesis identity/accessories/Pets and Dream Hall remain. Bounded automatic research and any service quota are proposed, not enabled or priced. Owner controls money and approvals. No staking, yield, automatic financial upgrade or unconditional paid schedules.
 
-Official policy figures in the documents are dated references requiring fresh verification. The cited hackathon report is a proposal, not proof of final event rules. Report findings in Traditional Chinese and keep technical identifiers in English.
+## Intake and permission boundaries
 
-This upload package does not grant repository write access to reviewers. It contains project planning information intended to be public only after the owner approves publication.
+Return INPUTS_READ with exact commit, raw-byte hashes, sections read and truncation status. Missing/mismatched mandatory source means stop before substantive certification. Missing code/quote does not erase the supplied specification; mark related tests NOT_RUN.
+
+The public URL is a read source only. Do not request secrets, write this repository or alter production. Any disclosed platform output delivery remains separate from input-repository permission. The operator may separately pay one Report service; no child job, schedule, swap, approval or deployment is authorized.
+
+## Version transition
+
+Upload all six files and obtain the actual NEW Git commit. This package does not include its own Git commit and cannot invent one. The old `0dc9eec7328fe280e8d586222d978d329890e87c` contains historical Rev.2 inputs. New files cannot retroactively modify an already-paid task. Save that order/job and use a later scoped delta review only if the owner chooses.
+
+Report requested in Traditional Chinese, technical identifiers retained in English. The Describe text is ASCII English to suit the user's interface.

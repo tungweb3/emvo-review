@@ -1,27 +1,36 @@
 {
+  "schemaVersion": "emvo-review-input-manifest/2.0",
   "date": "2026-10-07",
-  "purpose": "Source integrity for non-deploying EMVO review with hackathon addendum",
+  "revision": "v3.3-reviewfix1",
+  "reviewBrief": "v1.3-reviewfix1",
+  "scope": "Single non-deploying review: Crypto-first research, Genesis burn, world integration and proposal-only hackathon alignment",
   "sources": [
     {
-      "filename": "IMD_Ember_EmberEvo_v3.2_Rev2_PreLaunch_Reviewed_2026-10-07.md",
-      "bytes": 85786,
-      "sha256": "1d3c44f91ae88b7962d94e26bdb0bc073455b3a40782f474be228d708ae1178a"
+      "filename": "IMD_Ember_EmberEvo_v3.3_Crypto_Research_Genesis_Burn_2026-10-07.md",
+      "bytes": 148119,
+      "sha256": "ba57f63ef3d7cc302b8c4b354d242438baf79d9f57aa9d9a37d97e20f3dd5847"
     },
     {
-      "filename": "EMVO_PreLaunch_Swarm_Review_Brief_v1.1_NoDeploy_2026-10-07.md",
-      "bytes": 20986,
-      "sha256": "7d173b4768a8228fa7a7f8ac1928638f25e5e3678e6ea11e252b4ada66247495"
+      "filename": "EMVO_Swarm_Review_Brief_v1.3_Crypto_Research_NoDeploy_2026-10-07.md",
+      "bytes": 35101,
+      "sha256": "f8264f0b254eba8f50d7bfa47004e0b46e75dd97181c04bfd9db1a5db5d1ba8e"
     },
     {
-      "filename": "EMVO_Hackathon_Swarm_Review_Addendum_v1.0_NoDeploy_2026-10-07.md",
-      "bytes": 5207,
-      "sha256": "7541a585eaab0e6b8ee35c43dcb125c8767621998305d3cf8582772a03b4989d"
+      "filename": "EMVO_Hackathon_Swarm_Review_Addendum_v1.2_NoDeploy_2026-10-07.md",
+      "bytes": 7283,
+      "sha256": "af397c80912b12f4a7d8a7c804ba57588f442bfaa0913e7fd85de842fba6ab6d"
     },
     {
-      "filename": "EMVO_Hackathon_Participation_Gap_Review_v1.0_2026-10-07.md",
-      "bytes": 18765,
-      "sha256": "7650932b94064da2d49e6d34bc974014dd94feda30504650808da5c02f06ff44"
+      "filename": "EMVO_Hackathon_Participation_Gap_Review_v1.2_2026-10-07.md",
+      "bytes": 20591,
+      "sha256": "5ab2680708c426af717dcc1766867a4dfe1bcdb217a237bf7b9cca7320841cad"
     }
   ],
-  "note": "Only the four original source files are hashed here. No repository, upload, payment, submission or deployment has been performed."
+  "sourcePolicy": "Read only these four current Markdown documents; older root files are historical.",
+  "executionAuthority": "NONE: no deployment, payment, schedule, input-repository writes or production changes.",
+  "preparationNote": "Local files only. GitHub upload, new commit and remote availability have not been verified by this manifest.",
+  "engineeringAmendments": [
+    "Proposed L HOLD for unresolved required true-burn template capability; no new Owner approval.",
+    "Stable decision IDs aligned across section 1 and Appendix A; no new numerical parameters."
+  ]
 }

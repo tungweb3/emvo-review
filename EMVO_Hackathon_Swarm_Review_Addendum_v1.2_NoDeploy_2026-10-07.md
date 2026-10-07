@@ -1,22 +1,23 @@
-# EMVO Hackathon Alignment — Swarm Review Addendum v1.0
+# EMVO Hackathon Alignment — Swarm Review Addendum v1.2
 
 Date: 2026-10-07
 Status: Non-deploying eligibility and architecture review only.
-Applies alongside: EMVO_PreLaunch_Swarm_Review_Brief_v1.1_NoDeploy_2026-10-07.md
+Applies alongside: EMVO_Swarm_Review_Brief_v1.3_Crypto_Research_NoDeploy_2026-10-07.md
+Revision 1.2 synchronizes v3.3, Brief v1.3 and Gap Review v1.2. Event rules remain inherited proposal evidence, not a new verified announcement.
 This addendum does not modify owner decisions or authorize implementation, paid child jobs, financial signatures, deployment, event registration or production publication.
 
 ## Inputs
 
-1. Current specification: `IMD_Ember_EmberEvo_v3.2_Rev2_PreLaunch_Reviewed_2026-10-07.md`; SHA-256 `1d3c44f91ae88b7962d94e26bdb0bc073455b3a40782f474be228d708ae1178a`.
-2. Current review brief: `EMVO_PreLaunch_Swarm_Review_Brief_v1.1_NoDeploy_2026-10-07.md`; SHA-256 `7d173b4768a8228fa7a7f8ac1928638f25e5e3678e6ea11e252b4ada66247495`.
+1. Current specification: `IMD_Ember_EmberEvo_v3.3_Crypto_Research_Genesis_Burn_2026-10-07.md`; SHA-256 `ba57f63ef3d7cc302b8c4b354d242438baf79d9f57aa9d9a37d97e20f3dd5847`.
+2. Current review brief: `EMVO_Swarm_Review_Brief_v1.3_Crypto_Research_NoDeploy_2026-10-07.md`; SHA-256 `f8264f0b254eba8f50d7bfa47004e0b46e75dd97181c04bfd9db1a5db5d1ba8e`.
 3. Hackathon proposal: https://github.com/Identity-md/research/blob/9f7d4a0878b605b37b3f8927019ff7ab7cfe2713/jobs/e9efec16-56f3-40d3-9243-52c453effc7d/files/artifacts/report.md
-4. Proposed alignment review: `EMVO_Hackathon_Participation_Gap_Review_v1.0_2026-10-07.md`. This is a candidate recommendation, not an approved contract specification.
+4. Proposed alignment review: `EMVO_Hackathon_Participation_Gap_Review_v1.2_2026-10-07.md`. This is a candidate recommendation, not an approved contract specification.
 
 Report INPUTS_READ and verify available bytes. Missing inputs remain missing. The GitHub report is a hackathon proposal, not a completed EMVO audit and not an announced event. Do not treat contributor feedback as binding organizer rules.
 
 ## Additional question H — Hackathon readiness
 
-Keep H separate from R/Q/L/V/G/D. Being ready to launch a standard token does not establish hackathon qualification; lack of a complete Editor/Pets system does not automatically block the token launch.
+Keep H separate from R/Q/L/V/G/D/I. Being ready to launch a standard token does not establish hackathon qualification; lack of a complete Editor/Pets system does not automatically block the token launch.
 
 Establish from authoritative organizer evidence, or leave UNCONFIRMED:
 - whether this proposal was adopted;
@@ -59,3 +60,19 @@ Do not create transactions to obtain this evidence in the review job. Missing de
 5. Exact questions for the organizers and source/implementation limitations.
 
 The original no-deployment/no-financial-action restrictions remain effective. Do not automatically change `job.open` into `launch.open` or a workflow, and do not assume `job.continue` deploys new contracts.
+
+## v3.3 alignment
+
+Use the U0-U4 change classes in v3.3 and Brief v1.3. A data-only Room does not obtain financial authority; a Registry is a separately approved application, not an EMVO proxy upgrade. Do not copy CLAUS NFT redemption/revenue sharing or HIVE staking into the entry. A review repo of specifications is not the reproducible application source required for a live entry.
+
+Check this addendum's own bytes against the package manifest. An earlier paid review at the old commit is historical; publication of a new commit does not alter its inputs. Do not open another paid job just because a document revision exists.
+
+## Crypto-first research and Genesis burn
+
+The entry now proposes continuous token/NFT research in the ecosystem hall while retaining Genesis, Dream Hall and accessories/Pets. Research coverage beyond IMD does not make every covered project an IMD member. A genuine IMD work artifact can provide provenance but does not by itself prove safety or competition eligibility.
+
+Owner explicitly retains Paid Genesis BURN_NOT_TREASURY. Do not count its mint cost as development revenue, require a rushed Paid Mint to qualify, add a partial creator cut, redeemable backing, staking or financial proxy. The exact burn capability is unverified and must be assessed separately from a useful research demo.
+
+Possible additional demo evidence: a verified token/collection relationship, two evidence snapshots, a corrected/invalidated claim, a fast research page plus hall view, and a privacy-safe Genesis interface prototype. These supplement the candidate, not replace any actual finalized requirement for contracts, transactions, networks or build dates. A full research product is not itself organizer acceptance.
+
+Keep H separate from I, G, D and L. This addendum cannot create paid research batches, deploy a Registry or register an entry. No new deadline or prize claim is verified here.

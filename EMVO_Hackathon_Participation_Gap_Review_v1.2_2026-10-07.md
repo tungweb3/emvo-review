@@ -1,11 +1,11 @@
 # EmberEvo ($EMVO) × IdentityMD Hackathon
-## 參賽差距評估與 v3.2 補充建議 v1.0
+## 參賽差距評估與 v3.3 補充建議 v1.2
 
 日期：2026-10-07（Asia/Taipei）  
-狀態：**依活動提案進行的準備評估；不是正式規則、參賽資格核准、合約審計或部署授權。**  
-專案母版：`IMD_Ember_EmberEvo_v3.2_Rev2_PreLaunch_Reviewed_2026-10-07.md`  
-既有送審：`EMVO_PreLaunch_Swarm_Review_Brief_v1.1_NoDeploy_2026-10-07.md`  
-本檔不覆寫母版，也不把新增合約方案當作 Owner 已批准的實作。
+狀態：**繼承活動提案的準備評估，已同步v3.3；本次沒有重新取得正式規則／資格回覆，不是合約審計或部署授權。**  
+專案母版：`IMD_Ember_EmberEvo_v3.3_Crypto_Research_Genesis_Burn_2026-10-07.md`  
+既有送審：`EMVO_Swarm_Review_Brief_v1.3_Crypto_Research_NoDeploy_2026-10-07.md`  
+本 v1.2 同步 v3.3／Brief v1.3 的版本引用，保留原活動提案與候選評估。新增合約仍未由 Owner 批准；本次不重新推定正式活動規則或執行報名／部署。
 
 ## 0. 結論
 
@@ -58,7 +58,7 @@ Owner 人工批准並支付 IMD 工作預算
 
 **只有主辦確認採 2026 年這個時段時**，台北時間才是：2026-10-05 08:00 → 2026-10-19 08:00。這是時區換算，不是本評估確認的正式截止日。
 
-本次公開查找未取得足以確認正式開賽、報名入口、最終規則與網路的主辦公告；這不代表它們不存在。請取得主辦確認後再排正式 Launch。
+前輪評估未取得足以確認正式開賽、報名入口、最終規則與網路的主辦公告；本輪僅同步規格，沒有新的主辦資格回覆。這不代表公告不存在。請取得主辦確認後再以其規則安排參賽。
 
 ---
 
@@ -66,7 +66,7 @@ Owner 人工批准並支付 IMD 工作預算
 
 下列條件來自 S1 的 Entry requirements，仍屬提案。
 
-| 提案條件 | v3.2 Rev.2／本次可證明狀態 | 需要做什麼 |
+| 提案條件 | v3.3／本次可證明狀態 | 需要做什麼 |
 |---|---|---|
 | 建設期內，透過 IMD protocol 在主辦允許的網路推出可運作 Token 專案 | 母版規劃 Ethereum Mainnet 官方 Launch；本次未取得 EMVO 實際部署或參賽核准 | 確認年份／起訖／網路／launch 路徑；留時間與 TX 證據 |
 | active v4 Hook **或**有超出 plain token 功能的 custom contract | 母版刻意不做自訂交易 Hook；Genesis 合約另階段驗收 | 選擇有真實產品功能的獨立合約候選，或已安全完成的 Genesis 功能；不可只發 Token |
@@ -220,17 +220,17 @@ Room 題材必須取自**已能查證**的 IMD Agent／Swarm／生態事件。�
 
 ---
 
-## 7. v3.2 與 Swarm Brief 要怎麼修？【建議，不直接覆寫】
+## 7. v3.3 與 Swarm Brief 對齊【保留原邊界；候選實作未批准】
 
 | 文件位置 | 建議補充 |
 |---|---|
-| v3.2 開頭／決策表 | 加 Hackathon preparation = proposal-based，未確認資格；不影響既有 Owner 決策 |
+| v3.3 開頭／決策表 | 加 Hackathon preparation = proposal-based，未確認資格；不影響既有 Owner 決策 |
 | §36 / §63 Dream Hall 分期 | 將 D1 真實 Room + IMD artifact 流程列為參賽候選里程碑，仍非所有 Token Launch 的通用 blocker |
 | §41 Room Registry | 保留既有受控內容機制；候選 onchain release registry 需獨立批准、測試與部署 |
 | §54 V1 exclusions | 不撤回 no custom v4 Hook；明確區別內容發布合約與被排除的 onchain Learning/World Pulse |
 | §58 GitHub／交付 | 補公開 submission repo、baseline commit、reused code、evidence manifest、demo 說明 |
 | §59／Gate 系統 | 新增 H: 比賽規則／提交資格驗收，與 L付款發幣、V部署驗證、G Genesis、D內容發布分開 |
-| Swarm Brief v1.1 | 增補 Hackathon alignment section；仍為只審不發、不付款、不幫忙報名 |
+| Swarm Brief v1.3 | 增補 Hackathon alignment section；仍為只審不發、不付款、不幫忙報名 |
 
 **新增 H 不代表只有普通標準 Token 就能參賽；也不代表為了 H 可以跳過 L/G/D。**
 
@@ -328,10 +328,16 @@ Hackathon entry eligibility = NOT ESTABLISHED
 Project source / deployment audit in this review = NOT PERFORMED
 Contract proposal = CANDIDATE / NOT OWNER-APPROVED
 Additional deployment / spend authority = NONE
-Existing v3.2 launch gates = UNCHANGED
+Existing token launch gates = UNCHANGED
 ```
 
 ---
+
+## 10.1 v3.3對齊與AI更新邊界
+
+不把CLAUS式proxy、NFT贖回或HIVE式staking當參賽必需，也不因「meaningful functionality」硬加金融邏輯。候選Registry只控制官方網站的批准版本，維持U1內容與U4合約更新的權限隔離。首次實作／部署仍需Owner另案批准。
+
+D1目標是一間真實IMD產物的可探索Room；完整Editor、模型訓練與NFT化仍非必需。新的公開review repo是規格輸入，不是已可重現程式Demo。
 
 ## 11. 原活動提案本身值得澄清的地方
 
@@ -361,10 +367,23 @@ Git blob SHA-1: `1b3aeac9463a15b4332afd7562e7f7921897ea62`
 [S3] Uniswap 官方 Hook 概念：https://developers.uniswap.org/docs/protocols/v4/concepts/hooks  
 用於區分Pool Hook與一般產品合約；不提供IMD hackathon資格。
 
-[S4] `IMD_Ember_EmberEvo_v3.2_Rev2_PreLaunch_Reviewed_2026-10-07.md`  
-SHA-256: `1d3c44f91ae88b7962d94e26bdb0bc073455b3a40782f474be228d708ae1178a`
+[S4] `IMD_Ember_EmberEvo_v3.3_Crypto_Research_Genesis_Burn_2026-10-07.md`  
+SHA-256: `ba57f63ef3d7cc302b8c4b354d242438baf79d9f57aa9d9a37d97e20f3dd5847`
 
-[S5] `EMVO_PreLaunch_Swarm_Review_Brief_v1.1_NoDeploy_2026-10-07.md`  
-SHA-256: `7d173b4768a8228fa7a7f8ac1928638f25e5e3678e6ea11e252b4ada66247495`
+[S5] `EMVO_Swarm_Review_Brief_v1.3_Crypto_Research_NoDeploy_2026-10-07.md`  
+SHA-256: `f8264f0b254eba8f50d7bfa47004e0b46e75dd97181c04bfd9db1a5db5d1ba8e`
 
-本次比對 S4/S5 的 Owner decisions、Gate、Dream Hall分期、Registry、Genesis與Artifact交付相關內容，未重新審計3D網站程式／Token或任意產品合約。未提交報名、quote、付款、Swarm工作或部署。未取得主辦正式資格回覆。
+本次僅同步v3.3／Brief v1.3引用與新範圍；原評估比對 S4/S5 的 Owner decisions、Gate、Dream Hall分期、Registry、Genesis與Artifact交付相關內容，未重新審計3D網站程式／Token或任意產品合約。未提交報名、quote、付款、Swarm工作或部署。未取得主辦正式資格回覆。
+
+
+---
+
+## 12. v3.3增量：研究＋Genesis＋世界
+
+本版將生態館的核心研究改為Crypto-first Token／NFT，保留Genesis Free＋Paid＋Remediation與有IMD Anchor的Dream Hall。Paid Genesis仍burn，不是專案可花收入；不以參賽為由改成Treasury收款、提早定價或新增可贖回本金。
+
+新候選示範可以增加：Token/NFT正確身份、一個資金與權利圖、兩次研究的來源變化與結論更正、快速頁及生態館共用資料、Genesis研究桌／Pet解說原型。原型不冒稱正式NFT權利，NFT轉手不轉讓私人筆記或重置未定服務額度。
+
+這些是產品證據，不會自動符合原提案的meaningful contract條件；主辦是否採用原提案／允許網路／既有專案新增模組仍待確認。候選Registry保持無資金、無Mint、無改Token權限，沒有Owner實作批准不部署。
+
+I研究品質、G燃燒Mint、D世界內容、H參賽與L發幣分開。有限研究批次未啟用；本次更新不授權日常市場掃描、付費schedule或任何交易。
