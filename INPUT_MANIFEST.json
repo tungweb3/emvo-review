@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-07",
+  "purpose": "Source integrity for non-deploying EMVO review with hackathon addendum",
+  "sources": [
+    {
+      "filename": "IMD_Ember_EmberEvo_v3.2_Rev2_PreLaunch_Reviewed_2026-10-07.md",
+      "bytes": 85786,
+      "sha256": "1d3c44f91ae88b7962d94e26bdb0bc073455b3a40782f474be228d708ae1178a"
+    },
+    {
+      "filename": "EMVO_PreLaunch_Swarm_Review_Brief_v1.1_NoDeploy_2026-10-07.md",
+      "bytes": 20986,
+      "sha256": "7d173b4768a8228fa7a7f8ac1928638f25e5e3678e6ea11e252b4ada66247495"
+    },
+    {
+      "filename": "EMVO_Hackathon_Swarm_Review_Addendum_v1.0_NoDeploy_2026-10-07.md",
+      "bytes": 5207,
+      "sha256": "7541a585eaab0e6b8ee35c43dcb125c8767621998305d3cf8582772a03b4989d"
+    },
+    {
+      "filename": "EMVO_Hackathon_Participation_Gap_Review_v1.0_2026-10-07.md",
+      "bytes": 18765,
+      "sha256": "7650932b94064da2d49e6d34bc974014dd94feda30504650808da5c02f06ff44"
+    }
+  ],
+  "note": "Only the four original source files are hashed here. No repository, upload, payment, submission or deployment has been performed."
+}
