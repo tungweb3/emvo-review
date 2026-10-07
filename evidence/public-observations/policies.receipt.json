@@ -1,0 +1,8 @@
+{
+  "url": "https://api.imd.fun/launch/policies",
+  "method": "GET",
+  "httpStatus": 200,
+  "asOfUtc": "2026-10-07T08:44:31.134107+00:00",
+  "bytes": 29362,
+  "sha256": "7c86eb577e027dee867419f75b04952d672db7b4c28ba3ab40d4dad4449eed25"
+}

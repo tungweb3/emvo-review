@@ -1,0 +1,75 @@
+{
+  "scope": "TEST_ONLY_PAYMENT_FIXTURE_NO_FREE_REMEDIATION_OR_FINAL_GENESIS",
+  "recordedAtUtc": "2026-10-07T09:13:55.945908+00:00",
+  "command": "node --test --test-concurrency=1 tests/treasury-payment.test.mjs",
+  "evidenceType": "TRANSCRIBED_FROM_COMPLETED_TOOL_STDOUT_AND_EXIT_CODE_NOT_NEW_EXECUTION",
+  "execSessionId": 32609,
+  "exitCode": 0,
+  "tests": 10,
+  "childTests": 9,
+  "parents": 1,
+  "pass": 10,
+  "fail": 0,
+  "cancelled": 0,
+  "skipped": 0,
+  "todo": 0,
+  "durationMs": 55473.5257,
+  "checks": [
+    {
+      "name": "ordinary no-burn ERC20 pays treasury and mints, with supply unchanged",
+      "status": "PASS"
+    },
+    {
+      "name": "missing or insufficient allowance reverts payment and mint",
+      "status": "PASS"
+    },
+    {
+      "name": "insufficient balance and invalid quantity preserve state",
+      "status": "PASS"
+    },
+    {
+      "name": "fee-on-transfer is rejected rather than underpaying the owner",
+      "status": "PASS"
+    },
+    {
+      "name": "false and fake-success token returns cannot mint for free",
+      "status": "PASS"
+    },
+    {
+      "name": "second NFT callback rejection rolls back the whole batch payment",
+      "status": "PASS"
+    },
+    {
+      "name": "ERC721 callback reentry fails while the outer paid mint completes once",
+      "status": "PASS"
+    },
+    {
+      "name": "standard maximum allowance retains its ERC20 semantics",
+      "status": "PASS"
+    },
+    {
+      "name": "no-return token works only when exact payment succeeds",
+      "status": "PASS"
+    }
+  ],
+  "sourceSha256": {
+    "contracts/test/GenesisTreasuryPaymentProbe.sol": "4f81feaf554fb94522eb07f29d34dceac1af28cbbcb487ee64340f073b0dcdab",
+    "tests/treasury-payment.test.mjs": "5368f31b122e89f7c9a7eac79f570ae4d220303abad37c5a9494936a5e9704c3",
+    "contracts/test/FixtureTokens.sol": "00f8a4bed4ce307606837c4d168c2b019d49a41c90649dc0d33d64f8c7da5275",
+    "contracts/test/GenesisCompatibilityProbe.sol": "03d20aab7e6cbea554e99ab6bf9f04240f7f613d3ee7852188cfa3a29a576248",
+    "tools/compile.mjs": "f5945f03e9f50b4447719d659e112c3457e717b422f1925a4db4b4692a20d503",
+    "tools/runtime.mjs": "0de6b09f95193f0b72eb96df9f59b1e557afe1d79c11255cdc00188efc395177"
+  },
+  "chainBroadcast": false,
+  "productionPriceOrCapDecision": false,
+  "selfPaymentPolicy": "TEST_PROBE_REJECTS_UNDECIDED_CASE_NOT_OWNER_PRODUCTION_DECISION",
+  "limitations": [
+    "Local Shanghai EVM and synthetic balances/prices/capacity",
+    "Actual EMVO, Free/Remediation qualification, F/R/P and final Genesis NOT_RUN",
+    "Native uWS unavailable under Node 24; recorded JS fallback"
+  ],
+  "publicationTransform": {
+    "originalReceiptSha256": "ecc5d5142fbf107e2c8f51ed3e52393c74445adf5c4d9742c0611bdf5ab05ecb",
+    "change": "Local absolute paths omitted; not a new test run"
+  }
+}

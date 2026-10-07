@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "emvo-round2-review-inputs/1.1",
+  "packageId": "emvo-token-review-r2/2026-10-07/v1.1",
+  "date": "2026-10-07",
+  "purpose": "One non-deploying Token Report: latest 86/10/4, wallet, no-burn payment and newly supplied bounded evidence",
+  "notAMasterRevision": true,
+  "historicalBaseline": {
+    "repository": "tungweb3/emvo-review",
+    "commit": "902075d1dfb772738a074f06f56f7aeea9240fd8",
+    "revision": "v3.3 ReviewFix1",
+    "role": "Historical context only; burn-only rule superseded by file 04."
+  },
+  "requiredReadOrder": [
+    "latest_decisions_and_evidence",
+    "earlier_decision",
+    "brief",
+    "scope",
+    "report"
+  ],
+  "sources": [
+    {
+      "role": "brief",
+      "filename": "EMVO_R2_01_Token_Report_Brief_v1.1_2026-10-07.md",
+      "bytes": 24612,
+      "sha256": "46dd3126eb1cc1add1ecf887f69d44b59f105a4840e8590be9854fd3d6c0db89",
+      "required": true
+    },
+    {
+      "role": "scope",
+      "filename": "EMVO_R2_02_Active_Scope_and_Finding_Map_v1.1_2026-10-07.md",
+      "bytes": 12808,
+      "sha256": "69694d0d171725b76744b24e81028f074bd9aad18ffbfe07e0b130586a85bea1",
+      "required": true
+    },
+    {
+      "role": "report",
+      "filename": "EMVO_R2_03_First_Report_UNCHANGED_2026-10-07.md",
+      "bytes": 37365,
+      "sha256": "e399fdfb22e512448e855ca9aa2f2ca77536e4c95ecf6f600d220ec2e162937b",
+      "required": true
+    },
+    {
+      "role": "earlier_decision",
+      "filename": "EMVO_R2_04_PaidMint_Decision_UNCHANGED_2026-10-07.md",
+      "bytes": 7331,
+      "sha256": "31f962d92c450c91c37e7a7cdceb73ae24cb0d65f4946daeba2fcd3d69760355",
+      "required": true
+    },
+    {
+      "role": "latest_decisions_and_evidence",
+      "filename": "EMVO_R2_05_Latest_Owner_Decisions_and_Evidence_v1.1_2026-10-07.md",
+      "bytes": 7573,
+      "sha256": "8cf8bfe6c1370a1dc6d305b147d6ab9885d9bc2037d01e431b609e5ebf0caf60",
+      "required": true
+    }
+  ],
+  "evidenceInventory": {
+    "filename": "EMVO_R2_EVIDENCE_MANIFEST.json",
+    "bytes": 10297,
+    "sha256": "858f96880426b8ce8a83cabc9f28c5bd34005d87970072aff14dd410a976fcc6"
+  },
+  "executionAuthority": "NONE: no launch, payment, quote, signature, paid children, schedules, website build or input-repo mutation",
+  "publicationStatus": "PUBLICATION_AUTHORIZED_REVIEW_PAYLOAD; actual fixed commit and remote readback supplied outside this self-contained manifest"
+}

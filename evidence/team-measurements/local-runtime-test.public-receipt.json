@@ -1,0 +1,125 @@
+{
+  "asOfUtc": "2026-10-07T08:55:50.373Z",
+  "scope": "Exact indexed Launch 884 runtime in isolated local VM with synthetic storage; not EMVO or whole factory simulation",
+  "tokenRuntimeSha256": "34c88e2345fc1b93f60ace20e3933e251f0bff4149e279544ba3a6a72459062f",
+  "runtime": {
+    "node": "v24.19.0",
+    "executable": "[LOCAL_PATH_OMITTED]",
+    "executableSha256": "3602f2bb1a10f2cbab4c36886218a33c1ab3db87290e73b033c46c77147d0237",
+    "dependencyRoot": "[LOCAL_PATH_OMITTED]",
+    "packages": {
+      "solc": {
+        "version": "0.8.30",
+        "packageSha256": "d3059631769ee89e919b784e84566f7853300d5353b624f348d567577cf5c384"
+      },
+      "ethers": {
+        "version": "6.15.0",
+        "packageSha256": "957d5092241ed59860532077633008c49852b98b384493bb0f04225a414eb601"
+      },
+      "ganache": {
+        "version": "7.9.2",
+        "packageSha256": "8b257b4387f16176518127b21943fb451c1aad4c8f586eb8d7a3caa00333fa29"
+      },
+      "@openzeppelin/contracts": {
+        "version": "5.4.0",
+        "packageSha256": "8c5b490fe133a9dda13c9a2915761c6b6c2e003a16c95863a800ce5527992bc4"
+      }
+    },
+    "entries": {
+      "solc": {
+        "path": "[LOCAL_PATH_OMITTED]",
+        "sha256": "5621a3a6709de448b29177adc0729bbb3d7fecc3e089b4566270fdb828afe222"
+      },
+      "ethers": {
+        "path": "[LOCAL_PATH_OMITTED]",
+        "sha256": "17771082edebd848a7e261149bbbbe3221e58825517dc79255a4b9376f21ad82"
+      },
+      "ganache": {
+        "path": "[LOCAL_PATH_OMITTED]",
+        "sha256": "f8b554e493d01c9cd1e0ee497f7dd9e4c14994ddfe144a4d935724e0a5cf9b56"
+      }
+    },
+    "compiler": "0.8.30+commit.73712a01.Emscripten.clang",
+    "compilerPayloadSha256": "3bb491a777f76dff9b2fe73ce29ca20e21a971b59a2f2cf8f73415424f00be06",
+    "dependencyLockSha256": "ea306a10fe0b2d0b044405e72d7d63b89ca96e616fb97e2b8a11f2bb736c2b15",
+    "evmVersion": "shanghai",
+    "localOnly": true,
+    "limitations": [
+      "Ganache Shanghai EVM; no latest-mainnet EVM, RPC, fork, Safe or DEX measurement",
+      "Existing package lock provenance is recorded; no new dependency installation or security endorsement"
+    ]
+  },
+  "checks": [
+    {
+      "name": "synthetic storage validated against copied runtime",
+      "status": "PASS",
+      "evidence": {
+        "supply": "1000000000000000000000000000",
+        "userBalance": "100000000000000000000"
+      }
+    },
+    {
+      "name": "published ABI has no burn, burnFrom, later mint or admin entrypoints",
+      "status": "PASS",
+      "evidence": {
+        "abiFunctions": [
+          "allowance",
+          "approve",
+          "balanceOf",
+          "decimals",
+          "name",
+          "symbol",
+          "totalSupply",
+          "transfer",
+          "transferFrom"
+        ]
+      }
+    },
+    {
+      "name": "burn(uint256) reverts and preserves state",
+      "status": "PASS",
+      "evidence": {}
+    },
+    {
+      "name": "burnFrom(address,uint256) reverts and preserves state",
+      "status": "PASS",
+      "evidence": {}
+    },
+    {
+      "name": "transfer to zero reverts",
+      "status": "PASS",
+      "evidence": {}
+    },
+    {
+      "name": "dead-address transfer does not reduce totalSupply",
+      "status": "PASS",
+      "evidence": {
+        "supply": "1000000000000000000000000000",
+        "deadBalance": "10000000000000000000"
+      }
+    },
+    {
+      "name": "Genesis true-burn mint reverts atomically with no NFT, spend, allowance change or supply change",
+      "status": "PASS",
+      "evidence": {
+        "probeAddress": "0xC89Ce4735882C9F0f0FE26686c53074E09B0D550",
+        "probeCompiler": "0.8.30+commit.73712a01.Emscripten.clang",
+        "probeSourceSha256": "03d20aab7e6cbea554e99ab6bf9f04240f7f613d3ee7852188cfa3a29a576248"
+      }
+    },
+    {
+      "name": "known-good burnable fixture validates probe and exact supply, debit, allowance, NFT checks",
+      "status": "PASS",
+      "evidence": {
+        "scope": "HARNESS POSITIVE CONTROL ONLY; not official template or deployed EMVO"
+      }
+    }
+  ],
+  "chainBroadcast": false,
+  "status": "PASS_INCOMPATIBILITY_REPRODUCED",
+  "compatibility": "FAIL_FOR_THIS_STANDARD_MAINNET_SAMPLE",
+  "publicationTransform": {
+    "originalReceiptSha256": "d8dadefe006c309ca2fbdf9246b54cd32de0665ff003b63d161861b9aed0f1ae",
+    "change": "Local absolute paths omitted; not a new test run"
+  }
+}

@@ -1,0 +1,268 @@
+{
+  "schemaVersion": "emvo-r2-evidence-inventory/1.0",
+  "scope": "RAW_PUBLIC_OBSERVATIONS_AND_TEAM_LOCAL_TESTS_NOT_INDEPENDENT_AUDIT",
+  "teamReceiptRedactions": [
+    {
+      "sourceReceipt": "local-payment-runtime-test.receipt.json",
+      "originalSha256": "a0884fb7447f587e7237162e1f988e8fc042d5cbb0744be965acd09fa324ec24",
+      "publicCopy": "evidence/team-measurements/local-payment-runtime-test.public-receipt.json"
+    },
+    {
+      "sourceReceipt": "treasury-payment-test.receipt.json",
+      "originalSha256": "ecc5d5142fbf107e2c8f51ed3e52393c74445adf5c4d9742c0611bdf5ab05ecb",
+      "publicCopy": "evidence/team-measurements/treasury-payment-test.public-receipt.json"
+    },
+    {
+      "sourceReceipt": "local-runtime-test.receipt.json",
+      "originalSha256": "d8dadefe006c309ca2fbdf9246b54cd32de0665ff003b63d161861b9aed0f1ae",
+      "publicCopy": "evidence/team-measurements/local-runtime-test.public-receipt.json"
+    }
+  ],
+  "files": [
+    {
+      "path": "evidence/allocation4pct/check-standard-wallet4pct.receipt.json",
+      "bytes": 660,
+      "sha256": "36d62d5aca39d37e54793efceb7b3d816818f6461f42941a088375e95454b437"
+    },
+    {
+      "path": "evidence/allocation4pct/check-standard-wallet4pct.request.json",
+      "bytes": 1307,
+      "sha256": "5393917e474d7f055d7c2dceed972b3064addf9293ddc3889ebd7f38160ef2c2"
+    },
+    {
+      "path": "evidence/allocation4pct/check-standard-wallet4pct.response.json",
+      "bytes": 2798,
+      "sha256": "80404d66d65680f66b26f6119d5fbe2b6e7e5741b318b6bb2d4e3000e3e17650"
+    },
+    {
+      "path": "evidence/public-observations/capabilities.json",
+      "bytes": 4256,
+      "sha256": "eaef51c4fa76119c48e31d71972e34b9fd590bdc8714025fc37f6899bd310e70"
+    },
+    {
+      "path": "evidence/public-observations/capabilities.receipt.json",
+      "bytes": 249,
+      "sha256": "f05a4d3a241eb43f130eebdc26023532812aa3014ffde965194f3547dd65614c"
+    },
+    {
+      "path": "evidence/public-observations/chain-token.json",
+      "bytes": 8853,
+      "sha256": "2160e0200ff0927943f61e21d0c833933185f1a66b26e125b7fbb7325d412c7e"
+    },
+    {
+      "path": "evidence/public-observations/chain-token.receipt.json",
+      "bytes": 280,
+      "sha256": "80b8bde20ef9bf5fc0f515c8bb46fa9913eb9c7c6a4a7d34a7ce2b64870f5fe2"
+    },
+    {
+      "path": "evidence/public-observations/decoded-evidence.json",
+      "bytes": 1761,
+      "sha256": "dc49941d48dcebc71e5286539d9e7766aaafb88881a34faf4889add689b8d344"
+    },
+    {
+      "path": "evidence/public-observations/deployment884-logs.json",
+      "bytes": 16481,
+      "sha256": "b1283b90c97ac25b6d9c5f42b1747aea1eb247b4090619d32ab4782b3fc87c61"
+    },
+    {
+      "path": "evidence/public-observations/deployment884-logs.receipt.json",
+      "bytes": 307,
+      "sha256": "ec5379aa6278e3b08dd57a177e26c85ea6d6a12166609bf31c240b25a439af32"
+    },
+    {
+      "path": "evidence/public-observations/deployment884.json",
+      "bytes": 27418,
+      "sha256": "8309fa3f68af068e084e26ed4070d79afd57af7bef917d18af97345a114c0354"
+    },
+    {
+      "path": "evidence/public-observations/deployment884.receipt.json",
+      "bytes": 302,
+      "sha256": "11a84a0cbb83e9287cb9a922781aa448c37db0fe9122d04bf89898ce7a5c15a3"
+    },
+    {
+      "path": "evidence/public-observations/fee-claim737.json",
+      "bytes": 16401,
+      "sha256": "c3d3f02348a3fd88688ea7c17f84536a005608675c57d0436dbb985afc020185"
+    },
+    {
+      "path": "evidence/public-observations/fee-claim737.receipt.json",
+      "bytes": 307,
+      "sha256": "b2589e0c5ba4e3bf2db719a3b7e048bf5383687dc8a0231a6a2e174f1dee54ef"
+    },
+    {
+      "path": "evidence/public-observations/foundry.toml",
+      "bytes": 310,
+      "sha256": "fe18d8e17921e6314df5bc9cdd4b8c095b921a30664b5036588e06ab14bfb865"
+    },
+    {
+      "path": "evidence/public-observations/foundry.toml.receipt.json",
+      "bytes": 316,
+      "sha256": "7fe5deda7b6921e885dbc2ee4361f38679c1ba87181bf365edf09a0ff2c89f97"
+    },
+    {
+      "path": "evidence/public-observations/launch.json",
+      "bytes": 1264,
+      "sha256": "4c8cfffd70f7b6a236c9b593faaad4e6a87a40e4c111b3e0ba97ac21b3f011ef"
+    },
+    {
+      "path": "evidence/public-observations/launch.json.receipt.json",
+      "bytes": 316,
+      "sha256": "a5f05b3654c13551156872cfbd84bfcf2d0221343b1efb46fb86f6d3acc0f4e1"
+    },
+    {
+      "path": "evidence/public-observations/LaunchToken.abi.json",
+      "bytes": 5715,
+      "sha256": "9578fcb499b4ba5fac51462a67a2654d9f803e0ea3af9bdb19130ff695808542"
+    },
+    {
+      "path": "evidence/public-observations/LaunchToken.abi.json.receipt.json",
+      "bytes": 330,
+      "sha256": "ac61f864d97838b4a2a495259ff6da3a0bd8be1a2fcdb5f282e12aab33c37671"
+    },
+    {
+      "path": "evidence/public-observations/LaunchToken.sol",
+      "bytes": 372,
+      "sha256": "24bc1e23f94b8dedfb3cb84ec339adcf4e563f315d999499c76e1b0c601819bc"
+    },
+    {
+      "path": "evidence/public-observations/LaunchToken.sol.receipt.json",
+      "bytes": 323,
+      "sha256": "1594244f552abc9559d5c4813298a0458f46f8f2a3afb0a0b7030dc0fbffe2a4"
+    },
+    {
+      "path": "evidence/public-observations/openapi.json",
+      "bytes": 23132,
+      "sha256": "be142840c010710cb2a5b9e5c73e71d8e79ec4054c15661699d60bfa627be96a"
+    },
+    {
+      "path": "evidence/public-observations/openapi.receipt.json",
+      "bytes": 241,
+      "sha256": "f139ef5a9bb51c19e771f624c1e309071e97b4cad90982a52b87ab6058f31913"
+    },
+    {
+      "path": "evidence/public-observations/policies.json",
+      "bytes": 29362,
+      "sha256": "7c86eb577e027dee867419f75b04952d672db7b4c28ba3ab40d4dad4449eed25"
+    },
+    {
+      "path": "evidence/public-observations/policies.receipt.json",
+      "bytes": 244,
+      "sha256": "83ec0c985dc3b5118c22ead1e399f6ff08cd893a617a0b45d03d9eb8853b94d0"
+    },
+    {
+      "path": "evidence/public-observations/rpc-raw.json",
+      "bytes": 69666,
+      "sha256": "0539c675005742e7202647d1f233d42dd717d93c21cdc0da6aa5b90396a8be29"
+    },
+    {
+      "path": "evidence/public-observations/rpc-result.json",
+      "bytes": 13499,
+      "sha256": "a16777ebeaa6e8efd284f1ceff71518c6051d0b7e9cda8f013b6b4efa67a8cb1"
+    },
+    {
+      "path": "evidence/public-observations/token.runtime.hex",
+      "bytes": 3447,
+      "sha256": "26b716ee72ddbcdba975a608e999d22cb27f6c30c1bac048feadfa7652b5658e"
+    },
+    {
+      "path": "evidence/public-observations/version.json",
+      "bytes": 195,
+      "sha256": "9b2c127532d3d47beac7bf38e3d325b0aca7d9911d8355fc793ad558cbbad41b"
+    },
+    {
+      "path": "evidence/public-observations/version.receipt.json",
+      "bytes": 234,
+      "sha256": "ff8eff6ef610d9b899735a5fdc6e9654faf3050a3ff5fe0109cf383a1b907dd4"
+    },
+    {
+      "path": "evidence/team-measurements/local-payment-runtime-test.public-receipt.json",
+      "bytes": 3107,
+      "sha256": "a886a8d826875db16f59a8d1a2466449ba3073c7354f21592a28ab6141493f8c"
+    },
+    {
+      "path": "evidence/team-measurements/local-runtime-test.public-receipt.json",
+      "bytes": 4338,
+      "sha256": "cf1753c66aba8c79445da3f9d2496733d2c5ece94628883052bbed54444c26c7"
+    },
+    {
+      "path": "evidence/team-measurements/repacked-fixture.receipt.json",
+      "bytes": 1344,
+      "sha256": "3e5bff3fd81c36f87266441f155a5532d539b1c37121fb50cc85ad8508964be0"
+    },
+    {
+      "path": "evidence/team-measurements/repacked-runtime.public-receipt.json",
+      "bytes": 3194,
+      "sha256": "4d73594bd80ecc62b28de6e2c085fe386460b0d3d92cf828a2571132969761b2"
+    },
+    {
+      "path": "evidence/team-measurements/treasury-payment-test.public-receipt.json",
+      "bytes": 2808,
+      "sha256": "f7b32b182212da3e14e216abcfc62faaa2ebcf1a950df8dc91e8adefbfb1c176"
+    },
+    {
+      "path": "reproduction/.gitignore",
+      "bytes": 79,
+      "sha256": "c03bcb7d7bdbee56fd3e0ed928af660d61e0f7e060860dfcf2ef25d4f9fcb270"
+    },
+    {
+      "path": "reproduction/contracts/EmberSink.sol",
+      "bytes": 568,
+      "sha256": "a12a78fcd7e49ddb62d4b8a063387efb0e5bd1ff29c2c0bca8618ad67d0d95c5"
+    },
+    {
+      "path": "reproduction/contracts/test/FixtureTokens.sol",
+      "bytes": 4915,
+      "sha256": "00f8a4bed4ce307606837c4d168c2b019d49a41c90649dc0d33d64f8c7da5275"
+    },
+    {
+      "path": "reproduction/contracts/test/GenesisCompatibilityProbe.sol",
+      "bytes": 4897,
+      "sha256": "03d20aab7e6cbea554e99ab6bf9f04240f7f613d3ee7852188cfa3a29a576248"
+    },
+    {
+      "path": "reproduction/contracts/test/GenesisTreasuryPaymentProbe.sol",
+      "bytes": 2736,
+      "sha256": "4f81feaf554fb94522eb07f29d34dceac1af28cbbcb487ee64340f073b0dcdab"
+    },
+    {
+      "path": "reproduction/evidence/chain-token.json",
+      "bytes": 8853,
+      "sha256": "2160e0200ff0927943f61e21d0c833933185f1a66b26e125b7fbb7325d412c7e"
+    },
+    {
+      "path": "reproduction/evidence/LaunchToken.abi.json",
+      "bytes": 5715,
+      "sha256": "9578fcb499b4ba5fac51462a67a2654d9f803e0ea3af9bdb19130ff695808542"
+    },
+    {
+      "path": "reproduction/evidence/local-payment-runtime-test.mjs",
+      "bytes": 3756,
+      "sha256": "60e054498c19e1d330ba537dbf54a9fc15a802162e6358d6210c03470af9105e"
+    },
+    {
+      "path": "reproduction/package.json",
+      "bytes": 416,
+      "sha256": "fc7c6c2920a2254ac8d3358af93ccc392261a1e2f3ff038c533fbd7a18c33abc"
+    },
+    {
+      "path": "reproduction/tests/treasury-payment.test.mjs",
+      "bytes": 5413,
+      "sha256": "5368f31b122e89f7c9a7eac79f570ae4d220303abad37c5a9494936a5e9704c3"
+    },
+    {
+      "path": "reproduction/tools/compile.mjs",
+      "bytes": 4313,
+      "sha256": "f5945f03e9f50b4447719d659e112c3457e717b422f1925a4db4b4692a20d503"
+    },
+    {
+      "path": "reproduction/tools/runtime.mjs",
+      "bytes": 2636,
+      "sha256": "0de6b09f95193f0b72eb96df9f59b1e557afe1d79c11255cdc00188efc395177"
+    }
+  ],
+  "repackedLocalMeasurement": {
+    "fixture": "evidence/team-measurements/repacked-fixture.receipt.json",
+    "runtime": "evidence/team-measurements/repacked-runtime.public-receipt.json",
+    "scope": "TEAM_LOCAL_NOT_INDEPENDENT_SWARM"
+  }
+}

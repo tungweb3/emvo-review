@@ -1,0 +1,8 @@
+{
+  "url": "https://api.imd.fun/requests/capabilities",
+  "method": "GET",
+  "httpStatus": 200,
+  "asOfUtc": "2026-10-07T08:44:31.098705+00:00",
+  "bytes": 4256,
+  "sha256": "eaef51c4fa76119c48e31d71972e34b9fd590bdc8714025fc37f6899bd310e70"
+}

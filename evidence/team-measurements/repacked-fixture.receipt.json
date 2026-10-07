@@ -1,0 +1,28 @@
+{
+  "scope": "TEAM_LOCAL_REPACKED_SOURCE_CLOSURE_NOT_SWARM_OR_PRODUCTION",
+  "evidenceType": "TRANSCRIBED_FROM_COMPLETED_TOOL_OUTPUT",
+  "execSessionId": 7521,
+  "exitCode": 0,
+  "tests": 10,
+  "pass": 10,
+  "fail": 0,
+  "cancelled": 0,
+  "skipped": 0,
+  "durationMs": 41445.4992,
+  "sourceSha256": {
+    "contracts/test/GenesisTreasuryPaymentProbe.sol": "4f81feaf554fb94522eb07f29d34dceac1af28cbbcb487ee64340f073b0dcdab",
+    "contracts/test/FixtureTokens.sol": "00f8a4bed4ce307606837c4d168c2b019d49a41c90649dc0d33d64f8c7da5275",
+    "contracts/test/GenesisCompatibilityProbe.sol": "03d20aab7e6cbea554e99ab6bf9f04240f7f613d3ee7852188cfa3a29a576248",
+    "contracts/EmberSink.sol": "a12a78fcd7e49ddb62d4b8a063387efb0e5bd1ff29c2c0bca8618ad67d0d95c5",
+    "tests/treasury-payment.test.mjs": "5368f31b122e89f7c9a7eac79f570ae4d220303abad37c5a9494936a5e9704c3",
+    "tools/compile.mjs": "f5945f03e9f50b4447719d659e112c3457e717b422f1925a4db4b4692a20d503",
+    "tools/runtime.mjs": "0de6b09f95193f0b72eb96df9f59b1e557afe1d79c11255cdc00188efc395177"
+  },
+  "runtime": "Node24/solc0.8.30/OZ5.4/ethers6.15/Ganache7.9.2/Shanghai",
+  "limitations": [
+    "Synthetic balances, cost and capacity",
+    "No EMVO instance, Free/Remediation or final Genesis",
+    "JS fallback for uWS native module"
+  ],
+  "chainBroadcast": false
+}

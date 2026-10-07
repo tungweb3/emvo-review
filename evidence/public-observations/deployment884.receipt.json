@@ -1,0 +1,7 @@
+{
+  "url": "https://eth.blockscout.com/api/v2/transactions/0x89218c12e6d9833be66ed9672f6501a5e08e6829ebb6567cb1cf63ea3d348f2b",
+  "httpStatus": 200,
+  "asOfUtc": "2026-10-07T08:48:23.097808+00:00",
+  "sha256": "8309fa3f68af068e084e26ed4070d79afd57af7bef917d18af97345a114c0354",
+  "bytes": 27418
+}

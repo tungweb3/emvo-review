@@ -1,0 +1,4 @@
+node_modules/
+artifacts/
+.rd/
+evidence/local-payment-runtime-test.receipt.json
