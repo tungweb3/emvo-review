@@ -1,6 +1,6 @@
 # EMBEO 部署後資訊與只讀費用查詢更新包
 
-2026-10-09。本包是可預覽、可交接的來源原型。正式官網尚未發布，付費 Swarm 工作尚未建立；GitHub 來源傳送狀態以實際固定 commit 與讀回紀錄為準。
+2026-10-09。本包是可預覽、可交接的來源原型，已公開於 tungweb3/emvo-review 的 embeo-postdeploy-2026-10-09 分支及同名資料夾。正式官網尚未發布，付費 Swarm 工作尚未建立；固定送件 commit 以本次送件連結與讀回紀錄為準。
 
 本輪範圍：正式代幣資料、使用者原版火焰 Logo、部署後文件、舊 EMVO 提示、只讀費用查詢。會員、Genesis paid mint、分期解鎖均不納入本轮，既有會員設定維持停用。
 
@@ -37,6 +37,6 @@ node scripts/serve-preview.mjs
 
 正式 EMBEO：`0x2b82CDEb8477415D541799abB0Cc48044C8ea5f3`。Ethereum 主網、原生 ETH 配對。火焰 PNG 直接複製自使用者指定資產，沒有重畫或改色。
 
-`web/` 不依賴 npm、遠端 script、字型 CDN 或網站 3D 資產。`.rd/` 保留原始 HTTP/RPC 回應、測試紀錄與本機流程資料；不得整包上傳。`public-candidate/` 及公開 ZIP 只包含明列的候選頁面與公開文件，仍須經確認後發布。
+`web/` 不依賴 npm、遠端 script、字型 CDN 或網站 3D 資產。`.rd/` 保留原始 HTTP/RPC 回應、測試紀錄與本機流程資料；不得整包上傳。`public-candidate/` 及公開 ZIP 只包含明列的頁面來源與公開文件；來源包已完成 GitHub 發布，正式網站仍待接入、測試及確認發布。
 
 歷史交付 commit 與原始 v3.4 規格保留。此更新包不修改已部署合約、不替換代幣、不改寫舊送審快照。

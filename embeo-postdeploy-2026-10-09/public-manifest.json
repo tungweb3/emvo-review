@@ -1,7 +1,7 @@
 {
   "schema": "embeo-source-review-bundle/1",
   "status": "SOURCE_REFERENCE_CANDIDATE",
-  "version": "2026-10-09.4",
+  "version": "2026-10-09.5",
   "token": "0x2b82cdeb8477415d541799abb0cc48044c8ea5f3",
   "financialActions": false,
   "contains3DModels": false,
@@ -29,8 +29,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 2658,
-      "sha256": "2ceaf61afa8441b0c909da75f1646e2974ccdfb6694594421ea7280503442629"
+      "bytes": 2803,
+      "sha256": "eff507d5fd94d0eb4c96d596f8cbf7d508e56fc1dd7c006f40084e306e223b55"
     },
     {
       "path": "SWARM_CONTINUATION_BRIEF.md",
@@ -39,8 +39,8 @@
     },
     {
       "path": "VALIDATION.md",
-      "bytes": 3950,
-      "sha256": "4e18dcdc7acb7731263bf31949caf46d20039b869a2d37a9fde6d5c1e07823bd"
+      "bytes": 4273,
+      "sha256": "b7fefad78bf0f75bd873d3f2028da6b10f2a8983afc1342ade6b2e3680957118"
     },
     {
       "path": "WORLD_HANDOFF.md",

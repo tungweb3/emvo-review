@@ -28,7 +28,7 @@
 - 早期歷史 RPC HTTP 403 保留為原始失敗；最新完整成功讀取不抹除它。
 - 公開快照是核對時間的資料；實際金額可能改變。事件查詢有範圍與收據上限，超出時保持未知。
 - 既有網站 router、CSP、正式環境 RPC CORS、網站發布及發布後 readback 尚未執行。
-- 本包未建立 Git 分支或遠端 release；因此私公版 sync、Git tag 一致性不宣稱已通過。正式會員、Genesis 與分期解鎖不屬本輪。
-- Cleanup 最終掃描沒有 FAIL，但保留 manual-only 更新覆蓋 REVIEW 及上述兩項 NOT_CHECKED；其嚴格公開 promotion 判斷為 BLOCK。依本輪 source-only 原型範圍，只交付本機審閱，不宣稱正式 release 閘門通過，也不為原型增加未授權的自動安裝器。
+- GitHub 來源包已公開於 tungweb3/emvo-review 的 embeo-postdeploy-2026-10-09 分支及同名資料夾；21 個檔案的 Git blob 雜湊已與本機候選逐項核對。main 與六份歷史根目錄檔案未修改。這是來源參考發布，尚未建立 Git tag／release 或正式網站發布。固定送件 commit 與讀回證據以本次送件資料為準。正式會員、Genesis 與分期解鎖不屬本輪。
+- 發布前的本機 Cleanup 掃描沒有 FAIL，但保留 manual-only 更新覆蓋 REVIEW，以及私公版 sync、Git tag 兩項 NOT_CHECKED；該次嚴格公開 promotion 判斷為 BLOCK，紀錄保留。後續來源包的遠端逐檔雜湊核對已另行完成；這不等於所有正式 release 閘門通過，也不為原型增加未授權的自動安裝器。
 
 原始 DOM、桌面／手機畫面、RPC、HTTP、來源狀態、測試 stdout、Cleanup 與 Skill revision 紀錄保存在本機 .rd/，不列入公開候選。驗收後再改碼、換圖片或換資料，須重跑相應核對。
