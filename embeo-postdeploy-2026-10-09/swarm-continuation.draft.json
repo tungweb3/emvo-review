@@ -1,0 +1,25 @@
+{
+  "parentJobId": "1d8ba181-fdc0-4f4b-83ab-bd5bc40f5515",
+  "shape": "chain",
+  "objective": "Continue the existing EmberEVO/EMBEO project with deployment documentation and a lightweight read-only token information/fee page. Keep the deployed Ethereum token 0x2b82cdeb8477415d541799abb0cc48044c8ea5f3, chainId 1, EmberEVO/EMBEO, 18 decimals, 1 billion initial supply. Launch 944; factory 0xff03410d0fe5fa8f7f59f743de35e333d9857120; requester wallet 0x1c651928150daddda9c2c040a9d4901d862f8ec4. Native ETH/EMBEO PoolId 0x616f6877a3fa74f550155002388df37e5b19861270420ac48fcf4b58c8f9f30a has effective fee 12500 (1.25%), tickSpacing 60 and guard 0x784ff9a3ac5d88a30bfff6f7f2a270161fbe6000. Admission manifest 3000 is historical format, not the live fee: do not rewrite the original manifest. Use the owner's exact flame at https://imdember.com/assets/emvo-64.771f691c33.png, SHA256 771f691c330cf00a0a9038b0aac718fd519000872f3cfb0532113739fccac4b4. Website https://imdember.com/, X https://x.com/tungweb3. Update README current status while preserving pre-deployment history. Show historical EMVO 0x7A427b94547232356cF212Fd1C668e8EB4069a46 as an Ethereum MAINNET historical test issuance: DO NOT BUY, not formal EMBEO or formal membership, old contracts still exist, no automatic migration or compensation. Read only: fixed public RPC methods, finalized block, verify token/pool/beneficiary, eth_call simulation of claimFees(944) without broadcasting, owed(wallet,currency), bounded fee event scans and successful receipts. Account-scoped owed/FeesPaid can span launches; do not mislabel as launch-only. Separate ETH and EMBEO; use integer amounts, source-checked 80/20 split and floor rounding. Missing reads remain null/unknown, never zero. No wallet connection, signatures, payments, approvals, swaps, fee claims or withdraw transactions. No deployment, token change, membership, Genesis, vesting, burn, treasury or schedules. Do not upload 3D models or unrelated private files. Produce source/tests/docs only; no website publication. The owner's local prototype is not an attached artifact: only claim access to material actually provided, and independently read public sources when needed. Return a blocker if these boundaries conflict with this continuation. Omit the personal contact email from every new public page, configuration and document. Use the website and X for contacts; do not restore an email from historical parent input or README.",
+  "steps": [
+    {
+      "skill": "write-readme-and-docs",
+      "objective": "Add factual post-deployment status using the original fixed source and public deployment records. Distinguish source matching, metadata registration and security review."
+    },
+    {
+      "skill": "implement-component",
+      "paths": [
+        "web/embeo/**",
+        "test-web/**"
+      ],
+      "objective": "Implement the lightweight information and read-only fee page, exact logo and meaningful positive/negative tests. Do not modify deployed Solidity, Foundry manifests or prior evidence."
+    },
+    {
+      "skill": "adversarial-review",
+      "objective": "Independently review address/fee accuracy, asset separation, cached/live timestamps, payout scope, read-only method restrictions, failure-to-unknown behavior, responsive layout and keyboard controls. No financial actions."
+    }
+  ],
+  "github": true,
+  "ipfs": false
+}
